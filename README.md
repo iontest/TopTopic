@@ -1,14 +1,15 @@
-TopTopic
-🌟 Visão Geral
-O TopTopic é uma plataforma que simplifica a forma como desenvolvedores e entusiastas de código gerenciam e descobrem repositórios no GitHub. Em vez de simplesmente favoritar projetos, você pode organizá-los por tópicos e imediatamente ver como eles se classificam em relação a outros projetos na mesma área. É a ferramenta perfeita para medir o impacto do seu trabalho e encontrar projetos de destaque.
+# <img width="100" height="100" alt="toptopicicon" src="https://github.com/user-attachments/assets/620915ca-3d51-4008-ab05-af82df048fda" /> 
+# TopTopic
 
-✨ Funcionalidades
-Adicionar Repositórios de Forma Simples: Basta inserir a URL do repositório do GitHub. O TopTopic busca e exibe automaticamente informações essenciais como nome do usuário, descrição e imagem.
+O **TopTopic** é uma plataforma simples para ver **o rank dos seus repositórios por tópico**, comparando com outros no GitHub.
 
-Malha de Cards Dinâmica: Na página principal, uma malha intuitiva exibe seus repositórios adicionados em cards interativos.
+---
 
-Detalhes do Repositório: Ao clicar em um card, uma nova página se abre com informações detalhadas do projeto e uma lista horizontal dos seus tópicos.
+## ✨ Funcionalidades
+- Adicione repositórios pelo link do GitHub  
+- Veja informações básicas (usuário, descrição, imagem)  
+- Cards dinâmicos para visualizar seus projetos  
+- Rankings de repositórios por número de estrelas ⭐  
+- Descubra em que posição seu projeto está em cada tópico  
 
-Classificação por Tópico: Clique em qualquer tópico para ver uma lista de todos os repositórios relacionados, ordenados por número de estrelas.
-
-Rank de Posicionamento: A funcionalidade "Seguir" permite que você encontre a posição do seu próprio repositório na lista de classificação, mostrando exatamente em que rank ele está dentro daquele tópico.
+---
