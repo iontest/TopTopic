@@ -1,0 +1,21 @@
+
+home:
+falando brevemente sobre
+btao para o app
+
+
+app:
+comeca com alguns cards em malha (representando os projeto que voce registrou.)
+botao de adicionar fixo na direita inferior
+    abre janela que pede link do repositorio + topicos a comparar: adicionar (múltiplos tópicos por repositório)
+
+pagina especifica:
+ao clicar em um card ele abre uma lista de todos os repositorios dquele topico ordenado por estrelas
+
+
+
+
+
+
+
+

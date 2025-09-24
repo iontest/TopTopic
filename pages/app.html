@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BTAO — App</title>
+  <link rel="stylesheet" href="../styles/app.css" />
+</head>
+<body>
+  <div class="app-root">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">BTAO</div>
+        <div class="title">Comparador por Tópicos</div>
+      </div>
+      <div class="actions">
+        <input id="searchInput" placeholder="Buscar por nome ou tópico" />
+        <button id="clearBtn">Limpar</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="grid" id="projectsGrid" aria-live="polite"></section>
+    </main>
+
+    <button id="addBtn" class="fab">+</button>
+
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <h2>Adicionar repositório</h2>
+        <label>Link do repositório</label>
+        <input id="repoLink" placeholder="https://github.com/owner/repo ou owner/repo" />
+        <label>Tópicos (separados por vírgula)</label>
+        <input id="topicsInput" placeholder="frontend,react,cli" />
+        <div class="modal-actions">
+          <button id="cancelBtn" class="btn muted">Cancelar</button>
+          <button id="addRepoBtn" class="btn primary">Adicionar</button>
+        </div>
+        <div id="modalMsg" class="msg"></div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script src="../scripts/app.js"></script>
+</body>
+</html>
